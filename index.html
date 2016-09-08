@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico" rel="stylesheet">
+    </head>
+    <body>
+        <section class="section-type-topo">
+            <hgroup>
+                <h1>Markup title</h1>
+                <h2>Demo</h2>
+            </hgroup>
+            <p>Favorites</p>
+            <form onsubmit="thescriptalbum.play(); return false;">
+                <input id="favUrl" type="url" required="required" placeholder="https://www.myplace.com"></input>
+                <input type="submit" value="Save"></input>
+            </form>
+            <div class="audio-play">
+                <audio id="thescriptalbum" class="player" src="The%20Script%20-%20No%20Sound%20Without%20Silence%20(Full%20Album).mp3" controls></audio>
+                <!--<audio controls autoplay loop preload="auto">
+                    &lt;!&ndash;<sorce src=""/>&ndash;&gt;
+                    <source src="The%20Script%20-%20No%20Sound%20Without%20Silence%20(Full%20Album).mp3"/>
+                    Your browser does not support audio!
+                </audio>-->
+            </div>
+            <div class="video-properity">
+                <video id="writeonme-5h" width="400" height="300" controls preload="none" poster="fifth-harmony-write-on-me-clipe.jpg">
+                    <source src="Fifth%20Harmony%20-%20Write%20On%20Me.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <!--<video controls autoplay loop muted>
+                    <source src="Fifth%20Harmony%20-%20Write%20On%20Me.mp4"></source>
+                    Your Browser does not supported video!
+                </video>-->
+            </div>
+            <div class="canvas-drew">
+                <canvas id="can" width="200" height"200">
+                Your Browser does not support canvas!
+                </canvas>
+                <script>
+                    //javascript
+                    var canvas= document.getElementById("can");
+                    var ctx = canvas.getContext("2d");
+                    ctx.fillStyle ="rgb(0,0,255)";
+                    ctx.fillRect(10, 10,180, 180);
+                </script>
+            </div>
+        </section>
+
+    </body>
+    <footer></footer>
+</html>

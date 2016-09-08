@@ -1,0 +1,40 @@
+
+.section-type-topo{
+    margin-left: 120px;
+    margin-top: 45px;
+    font-style: normal;
+    font-family: 'Pacifico', cursive;
+}
+h1{
+    font-family: 'Lobster', cursive;
+}
+.audio-play{
+    background-color: #0072c6;
+    width: 400px;
+    height: 255px;
+    /* padding-top: 42px; */
+    display: inline-block;
+    margin-top: 72px;
+}
+
+.player{
+    display: inline-block;
+    position: relative;
+    align-content: center;
+    margin-top: 115px;
+    margin-left: 50px;
+}
+.video-properity{
+    display: inline-block;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 25px;
+    height: 300px;
+}
+.canvas-drew{
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin-right: 171px;
+    margin-top: 171px;
+}
