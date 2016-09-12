@@ -1,0 +1,13 @@
+<inkscape-extention>
+    <_name>Hello World!</_name>
+    <script>
+        <command interpreter="python">
+            hello_word.py
+        </command>
+        <command interpreter="python">
+            ext.py
+
+        </command>
+    </script>
+
+</inkscape-extention>
