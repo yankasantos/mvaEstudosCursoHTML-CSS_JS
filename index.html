@@ -11,11 +11,11 @@
                 <h1>YankS Lab</h1>
                 <h2>Bincando/Estudando com o curso da Microsoft Virtual Academy</h2>
             </hgroup>
-            <form onsubmit="thescriptalbum.play(); return false;">
+            <form class="fav-save" onsubmit="thescriptalbum.play(); return false;">
                 <input id="favUrl" type="url" required="required" placeholder="https://www.myplace.com"></input>
                 <input type="submit" value="Save"></input>
             </form>
-            <p>Favorites</p>
+            <p class="favoritos-barra">Favorites</p>
             <div class="audio-play">
                 <audio id="thescriptalbum" class="player" src="The%20Script%20-%20No%20Sound%20Without%20Silence%20(Full%20Album).mp3" controls></audio>
                 <!--<audio controls autoplay loop preload="auto">
