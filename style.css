@@ -1,32 +1,56 @@
-
+body{
+    margin:0rem;
+}
 .section-type-topo{
     font-style: normal;
 
 }
 h2{
-    margin-left: 120px;
-    margin-top: 45px;
-    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-family: 'Slabo 27px', sans-serif;
+    position: relative;
+    bottom: 2rem;
+    font-size: 18px;
 }
 h1{
-    margin-left: 120px;
-    margin-top: 45px;
+    margin-left: 8rem;
+    margin-top: 2rem;
     font-family: 'Lobster', cursive;
+    font-size: 55px;
 }
 .favoritos-barra {
     background: rgb(255,0,0);
-    width: 100%;
+    width: 100% !important;
     color: #fff;
     font-size: 32px;
     text-align: center;
     font-family: 'Pacifico', cursive;
+    margin-top: 0rem;
+    position: absolute;
+    bottom: 31rem;
+    z-index: 0;
+    /*background: rgb(255,0,0);
+    width: 100%;
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;*/
 }
 .fav-save{
-    display: inline;
+    /*display: inline;
     top: 32px;
     position: relative;
     margin-right: 2rem;
+    float: right;*/
+    display: inline-block;
+    top: 1rem;
+    position: relative;
+    margin-right: 2rem;
     float: right;
+    z-index: 1;
+    /* bottom: 17rem; */
+    /* margin-bottom: 0; */
 
 }
 .audio-play{
@@ -48,9 +72,10 @@ h1{
 .video-properity{
     display: inline-block;
     position: absolute;
-    margin-left: 50px;
-    margin-top: 25px;
-    height: 300px;
+    margin-left: 3.5rem;
+    margin-top: 6rem;
+    /* height: 16rem; */
+    z-index: 1;
 }
 .canvas-drew{
     display: inline-block;
@@ -58,4 +83,25 @@ h1{
     float: right;
     margin-right: 171px;
     margin-top: 171px;
+}
+#can{
+    position: relative;
+    display: inline-block;
+    margin-right: 17rem;
+    width: 35rem;
+    height: 17rem;
+    bottom: 27.75rem;
+    z-index: 0;
+}
+#can2{
+    transition: all 2s;
+    width:200px;
+}
+#can2:hover{
+    -webkit-transform: sacale(2) translate(50px, 50px,50px, 50px);
+    -moz-transform: sacale(2) translate(50px, 50px,50px, 50px);
+    -ms-transform: sacale(2) translate(50px, 50px,50px, 50px);
+    -o-transform: sacale(2) translate(50px, 50px,50px, 50px);
+    transform: sacale(2) translate(50px, 50px,50px, 50px);
+    border-radius: 50%;
 }
